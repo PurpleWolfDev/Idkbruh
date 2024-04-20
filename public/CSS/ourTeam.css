@@ -1,0 +1,230 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.primary-btn {
+    background-color: #602bdf;
+    color: white;
+    border: #612bdf81;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .primary-btn:hover {
+    background-color: #5219d6;
+    color: white;
+  }
+  .primary-btn:active {
+    background-color: #5219d6;
+    color: white;
+  }
+  .primary-btn:focus {
+    background-color: #5219d6;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.52);
+  }
+a{
+    color:white;
+    text-decoration: none;
+}
+  .first-word{
+    color:#602bdf;
+    font-size:30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+  body{
+      background:#181818;
+      overflow-x: hidden;
+  }
+.cards-container{
+   position: relative;
+   top:200px;
+   width:1200px;
+   height: 900px;
+   left: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   transform: translate(-50%);
+   /* border: 2px solid white; */
+}
+.cards{
+  position: relative;
+  width:600px;
+  /* background: red; */
+  height:300px;
+  /* border: 2px solid red; */
+}
+.card-img1{
+  position: absolute;
+  height:300px;
+  left:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text1{
+  position: absolute;
+  right: 0px;
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+.text-box{
+  background: #602bdf;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 25px solid #602bdf;
+	border-bottom: 25px solid transparent;
+  position: absolute;
+  right:0px;
+  top:50%;
+  transform: translate(0px, -50%);
+}
+.triangle-right{
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 25px solid #602bdf;
+	border-bottom: 25px solid transparent;
+  position: absolute;
+  left:0px;
+  top:50%;
+  transform: translate(0px, -50%);
+}
+
+.card-img2{
+  position: absolute;
+  height:300px;
+  left:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text2{
+  position: absolute;
+  right: 0px;
+  /* border-left:2px solid #181818; */
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+
+
+
+.card-img3{
+  position: absolute;
+  height:300px;
+  right:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text3{
+  position: absolute;
+  left: 0px;
+  /* border-left:3px solid #181818; */
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+
+
+.card-img4{
+  position: absolute;
+  height:300px;
+  right:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text4{
+  position: absolute;
+  left: 0px;
+  /* border-left:2px solid #181818; */
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+
+
+.card-img5{
+  position: absolute;
+  height:300px;
+  left:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text5{
+  position: absolute;
+  right: 0px;
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+.text-box{
+  background: #602bdf;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 25px solid #602bdf;
+	border-bottom: 25px solid transparent;
+  position: absolute;
+  right:0px;
+  top:50%;
+  transform: translate(0px, -50%);
+}
+.triangle-right{
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 25px solid #602bdf;
+	border-bottom: 25px solid transparent;
+  position: absolute;
+  left:0px;
+  top:50%;
+  transform: translate(0px, -50%);
+}
+
+.card-img6{
+  position: absolute;
+  height:300px;
+  left:0px;
+  width:300px;
+  /* border: 1px solid green; */
+}
+.card-text6{
+  position: absolute;
+  right: 0px;
+  /* border-left:2px solid #181818; */
+  /* border: 1px solid yellow; */
+  height:300px;
+  width:300px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+
+.name{
+  font-size: 40px;
+  color:white;
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translate(-50%);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.card-name{
+  font-size: 28px;
+  position: absolute;
+  white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  left: 50%;
+  text-shadow: 1px 1px 2px #202020;
+  transform: translate(-50%);
+  top:50px;
+}

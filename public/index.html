@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+     <!-- Bootstrap CDN -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+     crossorigin="anonymous"
+   />
+   <!-- Bootstrap Icons -->
+   <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+   />
+   <!-- Animate CDN -->
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+    <script src="JS/scrollfade.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <script src="JS/services.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/app2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Fox Devs Is Here</title>
+</head>
+<body id="body" onload="loadBody()">
+  <header>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="/"><span class="first-word">Purple</span> Wolf Dev</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3 text-center fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/"><big>Home</big></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects"><big>Projects</big></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/team"><big>Team</big></a>
+            </li>
+            <li class="nav-item">
+              <a href="/hire"><button class="primary-btn fw-bold">Hire Us</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="section-1" class="scrollFade">
+    <div class="text-container111 scrollFade">
+      <span class="section-1-header">Lorem Ipsun Data Mator</span>
+      <span class="section-1-contentss"> Data Mator Sir Amet Ipsun Is Necessary Lorem Ipsun Data Mator Sir Amet Ipsun Is NecessaryLorem Ipsun Data Mator Sir Amet Ipsun Is Necessary For Data To Get Mator As Mator Is Dead.</span>
+    </div>
+    <img id="section-1-image" class="scrollFade" src="IMG/unknown.png">
+    </div>
+    <!-- End Of First Section -->
+    <!-- Section-2 -->
+    <div id="section-2" class="scrollFade">
+      <span class="team">Meet our team</span>
+      <div class="images-container">
+        <img src="IMG/aditya.jpg" onclick="showCard(1)" class="img2">
+        <img src="IMG/abhinav.jpeg" onclick="showCard(2)" class="img3">
+        <img src="IMG/purplewolf.jpg" onclick="showCard(3)" class="img1">
+        <img src="IMG/purplewolf.jpg" onclick="showCard(4)" class="img4">
+        <img src="IMG/purplewolf.jpg" onclick="showCard(5)" class="img5">
+      </div>
+      <div class="profile-container">
+        <div class="profile">
+          <span class="pHead">Name</span>
+          <span class="pos">Frontend</span>
+          <span class="profile-content">
+            I Am A Mentor And I'm Here As A Guider In This Team And My Job Is To Review Designs And Logical Section Of Web Programs.
+          </span>
+        </div>
+        <div class="profile">
+          <span class="pHead">Abhinav</span>
+          <span class="pos" style="color:red;">Fullstack</span>
+          <span class="profile-content">
+            Lorem Ipsun Data Mator Sir AmetLorem  Sir AmetLorem Ipsun Data Mator Sir AmetLorem Ipsun Data Mator Sir Amet
+          </span>
+          
+        </div>
+        <div class="profile">
+          <span class="pHead">Purple Wolf Dev</span>
+          <span class="pos" style="color:red;">Full Stack</span>
+          <span class="profile-content">
+            You must not know about me          </span>
+        </div>
+        <div class="profile">
+          <span class="pHead">Name</span>
+          <span class="pos" style="color:green;">Frontend</span>
+          <span class="profile-content">
+            I'm Name From Bangladesh. I'm A Web Designer, Motion Artist And Python Lover. Currently I'm Learning React. I Love Travelling And Exploring New Things.
+          </span>
+        </div>
+        <div class="profile">
+          <span class="pHead">Name</span>
+          <span class="pos" style="color:green">Frontend</span>
+          <span class="profile-content">
+            I'm Akshat From India. I'm A Web Designer And An Android Application Developer, And Currently Learning About Node.js And I'm Also Interested In Graphics Designing.
+          </span>
+        </div>
+      </div>
+      <a class="prev" onclick="slideBack()">&#10094;</a>
+        <a class="next" onclick="slideNext()">&#10095;</a>
+      <div class="mobile-container">
+        <div class="prof-1">
+          <img class="prof-img" src="IMG/purplewolf.jpg">
+          <span class="prof-name">Purple Wolf Dev</span>
+          <span class="prof-pos">Full Stack</span>
+          <span class="prof-container-content">I Am A Full Stack Developer From India, very less is known about me so dont expect me to write anymore</span>
+        </div>
+        <div class="prof-2">
+          <img class="prof-img" src="IMG/purplewolf.jpg">
+          <span class="prof-name">Name</span>
+          <span class="prof-pos" style="color:cyan;">Guider & Frontend</span>
+          <span class="prof-container-content">I Am An AI Architect From India. I Am Also A Mentor, I'm Here As A Guider In This Team And My Job Is To Review Designs And Logical Section Of Web Programs.</span>
+        </div>
+        <div class="prof-3">
+          <img class="prof-img" src="IMG/abhinav.jpeg">
+          <span class="prof-name">Abhinav</span>
+          <span class="prof-pos" style="color:red;">Fullstack</span>
+          <span class="prof-container-content">Lorem Ipsun Data Mator Sir AmetLorem  Sir AmetLorem Ipsun Data Mator Sir AmetLorem Ipsun Data Mator Sir Amet
+</span>
+        </div>
+        <div class="prof-4">
+          <img class="prof-img" src="IMG/purplewolf.jpg">
+          <span class="prof-name">Name</span>
+          <span class="prof-pos">Frontend</span>
+          <span class="prof-container-content">I'm Name From Bangladesh. I'm A Web Designer, Motion Artist And Python Lover. Currently I'm Learning React. I Love Travelling And Exploring New Things.</span>
+        </div>
+        <div class="prof-5">
+          <img class="prof-img" src="IMG/purplewolf.jpg">
+          <span class="prof-name">al</span>
+          <span class="prof-pos" style="color:green;">Frontend</span>
+          <span class="prof-container-content">I'm Akshat From India. I'm A Web Designer And An Android Application Developer, And Currently Learning About Node.js And I'm Also Interested In Graphics Designing.</span>
+        </div>
+        <!--<div class="last"></div>-->
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="blocker"></div>
+
+    <!-- End Of Section-2 -->
+    <!-- Section-3 -->
+
+    <div class="scrollFade" id="section-3">
+        <iframe src="form.html" style="overflow: hidden;" class="container-3 scrollfade" id="container-3"></iframe>
+    </div>
+   <!-- End Of Section-3 -->
+   <div class="footer scrollFade">
+     <div class="links">
+       <a href="/" class="footer-link">Home</a>
+       <a href="/" class="footer-link">Projects</a>
+       <a href="/" class="footer-link">Team</a>
+       <a href="/" class="footer-link">Hire Us</a>
+     </div>
+     <div class="icons">
+    <i class="fa fa-twitter-square" id="twitter"></i>
+    <i class="fa fa-youtube-square" id="youtube"></i>
+    <i class="fa fa-facebook-square" id="youtube"></i>
+    <i class="fa fa-github-square" id="git"></i>
+    <i class="fa fa-instagram" id="insta"></i>
+  </div>
+  <div class="copyright">&#169; Copyright 2022 Purple Fox Devs. All Rights Reserved.</div>
+   </div>
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

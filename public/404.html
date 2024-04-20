@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Wolf Dev</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;   
+            font-family: 'Montserrat', sans-serif;;        
+        }
+
+        body{
+            color: snow;
+            background-color: #181818;
+        }
+        
+        .bg{
+            background-image: url("IMG/404.png");
+            height: 100vh;
+            background-size: cover;
+            opacity: 0.5;
+            background-repeat: no-repeat;
+        }
+        
+        .container{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 35%;
+        }
+
+        .container h1{
+            font-size: 150px;
+            font-weight: 900;
+            letter-spacing: 10px;
+            margin: 20px;
+            animation: glitch 1.5s linear infinite;
+        }
+
+        .container h2{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        .container p{
+            font-weight: 500;
+        }
+
+        .container button{
+            margin-top: 50px;
+            border: 2px solid snow ;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: medium;
+            background-color: #602bdf;
+            color: snow;
+            cursor: pointer;
+        }
+
+        .container button:hover{
+            color: #602bdf;
+            background-color: snow;
+            border: 2px solid #602bdf ;
+        }
+
+        @keyframes glitch{
+            2%,64%{
+                transform: translate(2px,0) skew(0deg);
+            }
+            4%,60%{
+                transform: translate(-2px,0) skew(0deg);
+            }
+            62%{
+                transform: translate(0,0) skew(5deg); 
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <h2>Ohh Noo!</h2>
+        <h1>404</h1>
+        <p>We are really sorry, we can't find the page you are looking for</p>
+       <a href="/"><button>
+            🔙Go back to home
+        </button></a>
+    </div>
+</body>
+</html>

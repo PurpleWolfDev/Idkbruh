@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    background:#181818;
+}
+.container{
+    position: relative;
+    height:95vw;
+    width:95%;
+    border: 4px solid red;
+    height:95vh;
+    top:2.5vh;
+    left:2.5vw;
+}
+.text{
+    font-size: 45px;
+    color:white;
+    white-space: nowrap;
+}
+.container .text{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0px);
+    top: 10px;
+    text-shadow: 3px 3px 6px black;
+    font-family: 'Playball', cursive;
+}
+.border{
+    position: absolute;
+    top:75px;
+    left:50%;
+    transform: translateX(-50%);
+    height:3px;
+    background: white;
+    width: 200px;
+}
+.cards-container{
+    position: absolute;
+    top: 110px;
+    white-space: nowrap;
+    width:95%;
+    overflow-x: hidden;
+    left:2.5%;
+    height:calc(100% - 120px) !important;
+    border: 2px solid blue;
+}
+.ifr1{
+    position: absolute;
+    top:20px;
+    left:40px;
+    white-space: nowrap;
+}
+.ifr2{
+    white-space: nowrap;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.ifr3{
+    top:20px;
+    white-space: nowrap;
+    position: absolute;
+    right:40px;
+}
+.ifr4{
+    top:10px;
+    position: relative;
+}
+.ifr5{
+    top:10px;
+    position: relative;
+    
+}
+.ifr6{
+    top:10px;
+    position: relative;
+}
+.ifr1:hover .ifr2{
+   display: none;
+}

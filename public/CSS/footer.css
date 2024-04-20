@@ -1,0 +1,99 @@
+.footer{
+    background:#181818 !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#twitter{
+    font-size:50px;
+    padding:10px;
+    /* padding:10px; */
+    cursor:pointer;
+    color:grey;
+    background:#181818;
+}
+#twitter:hover {
+    font-size:47px;
+    transition-duration: 0.3s;
+}
+
+#youtube{
+    font-size:50px;
+    cursor:pointer;
+    color:grey;
+    padding:10px;
+    background:#181818;
+}
+#youtube:hover {
+    font-size:47px;
+    transition-duration: 0.2s;
+}
+
+#facebook{
+    font-size:50px;
+    color:grey;
+    cursor:pointer;
+    padding:10px;
+    background:#181818;
+}
+#facebook:hover {
+    font-size:47px;
+    transition-duration: 0.2s;
+}
+
+#git{
+    font-size:50px;
+    color:grey;
+    cursor:pointer;
+    padding:10px;
+    background:#181818;
+}
+#git:hover {
+    font-size:47px;
+    transition-duration: 0.2s;
+}
+
+#insta{
+    font-size:50px;
+    color:grey;
+    cursor:pointer;
+    padding:10px;
+    background:#181818;
+}
+#insta:hover {
+    font-size:47px;
+    transition-duration: 0.2s;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.footer-link{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    font-size:22px;
+}
+.footer-link:hover{
+    color:blue;
+    transition-duration: 0.4s;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* white-space: nowrap; */
+    text-align: center;
+    margin-top: 15px;
+    font-size:21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
