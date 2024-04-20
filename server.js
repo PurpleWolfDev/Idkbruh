@@ -4,7 +4,7 @@ const path = require("path");
 const mailer = require("nodemailer");
 const { ppid } = require("process");
 const bodyparser = require("body-parser");
-const port = process.env.port  || 8080;
+const port = process.env.PORT || 80;
 app.use(express.urlencoded({extended:true}));
 app.listen(port, () => {
     console.log("ok");
